@@ -10,7 +10,7 @@ function App() {
       setvalue((prev)=>  prev+1)
     }
     else{
-      setvalue((prev)=>  prev-1<0?0:prev-1 )
+      setvalue((prev)=>  prev-1 )
     }
     }
   
